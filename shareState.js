@@ -1,7 +1,9 @@
 'use strict';
 
-const listener = function() {
-    this.initiate = (_this) => {
+const shareState = function() {
+    // need to randomly generate a string to be used as the listener name so it will not be already taken
+this.initiate = (_this) => {
+
         if (typeof this.state === 'undefined') this.state = _this.state;
         if (typeof _this.state === 'undefined') _this.state = this.state;
 
@@ -17,4 +19,4 @@ const listener = function() {
     }   
 }
 
-module.exports = new listener;
+module.exports = new shareState;
