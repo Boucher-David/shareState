@@ -1,6 +1,6 @@
 {
   "name": "share-state",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Simple module for sharing state between react components",
   "main": "shareState.js",
   "scripts": {
