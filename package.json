@@ -1,0 +1,19 @@
+{
+  "name": "share-state",
+  "version": "0.1.0",
+  "description": "Simple module for sharing state between react components",
+  "main": "shareState.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boucher-David/shareState.git"
+  },
+  "author": "David Boucher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boucher-David/shareState/issues"
+  },
+  "homepage": "https://github.com/Boucher-David/shareState#readme"
+}
