@@ -32,7 +32,7 @@ A state object will be attached to 'this' and shared between every component tha
 
 ## Updating State within a Component
 
-You are able to all listener.updateState from within every component. 
+You are able to call listener.updateState from within every component that you have called initiate on.
 ```
 listener.updateState({key: value});
 ```
