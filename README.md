@@ -5,7 +5,7 @@ A tiny javascript method for sharing state between every react component
 ## How to install
 
 ```
-import {initiate, updateState} from 'shareState';
+import {initiate, updateState} from 'share-state';
 ```
 
 ## Installation
